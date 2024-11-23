@@ -1,0 +1,25 @@
+body {
+  direction: ltr;
+}
+.underline-effect::after {
+  left: auto;
+  right: 0;
+}
+
+.underline-effect:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.rtl {
+  direction: ltr;
+}
+
+.modal form button {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
